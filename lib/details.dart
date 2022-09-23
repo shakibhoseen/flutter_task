@@ -64,7 +64,10 @@ class _DetailsState extends State<Details> {
             fontFamily: 'BalooDa',
           ),
         ),
-        backgroundColor: Colors.transparent,
+        backgroundColor: Color(0xffF7F2FF),
+        iconTheme: IconThemeData(
+          color: Color(0xff323232),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -73,7 +76,7 @@ class _DetailsState extends State<Details> {
             SizedBox(
               height: 25,
             ),
-            Padding(
+           /* Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Row(
                 children: [
@@ -92,7 +95,7 @@ class _DetailsState extends State<Details> {
                   )
                 ],
               ),
-            ),
+            ),*/
             design(),
           ],
         ),
